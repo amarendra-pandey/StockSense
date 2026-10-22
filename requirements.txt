@@ -1,3 +1,7 @@
 fastapi
 uvicorn
 pydantic-settings
+pydantic[email]
+sqlalchemy>=2.0,<2.1
+psycopg[binary]
+alembic

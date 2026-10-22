@@ -1,0 +1,10 @@
+Run migrations from the project root with:
+
+    alembic upgrade head
+
+Create a new migration after changing models with:
+
+    alembic revision --autogenerate -m "describe schema change"
+
+Database connection settings are loaded from `DATABASE_URL` (or the local
+`.env` file). Review generated migrations before applying them.
